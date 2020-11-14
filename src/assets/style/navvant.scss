@@ -1,0 +1,17 @@
+/* 导航栏标签标题颜色*/
+.van-nav-bar {
+    background: #4F77AA;
+ 
+  }
+
+  ::v-deep(.van-nav-bar .van-icon){
+      color: #fff;
+  }
+  
+  ::v-deep(.van-nav-bar__title){
+      color: #fff;
+  }
+
+  ::v-deep(.van-nav-bar__right){
+    color: #fff;
+}
